@@ -1,14 +1,22 @@
 ## About Me
 
-Hello, I'm **Nix**.
+Hello, I'm **Nix**, a graduated student in department of computer science and engineering.
 
 ### Interests
-Currently I'm working on Computer Systems area, and I have interests in the following:
+Currently I'm working on *computer systems* area, and I have interests in the following topics:
 
 - Compilers for DSA, NPU, etc.
 - Advanced Computer Architectures
 - Heterogeneous Computing
 - Operating System
+
+Plus, I'm also interested in developing user applications.
+
+### Languages
+I am able to develop and build large projects with:
+- C/C++
+- Python
+- CUDA C++
 
 ### Specs
 POSTECH Graduate School of Artificial Intelligence (2025. 02 ~ )
