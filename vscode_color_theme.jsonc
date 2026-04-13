@@ -1,0 +1,261 @@
+{
+  // Based on 'Abyss' theme
+  "workbench.colorTheme": "Abyss",
+
+  // Editor Foreground
+  "workbench.colorCustomizations": {
+    "editor.foreground": "#98b4ff"
+  },
+
+  // Color customizations
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "default",
+        "settings": {
+          "foreground": "#c0d1ff"
+        }
+      },
+    // Source code
+      {
+        "scope": [
+          "source",
+          "variable",
+          "variable.parameter",
+          "meta.function-call.arguments.python"
+        ],
+        "settings": {
+          "foreground": "#abbcea",
+          "fontStyle": ""
+        }
+      },
+    // String literals
+      {
+        "scope": [
+          "string",
+          "meta.embedded.assembly"
+        ],
+        "settings": {
+          "foreground": "#5dffff"
+        }
+      },
+    // Operators
+      {
+        "scope": [
+          "keyword.operator",
+          "keyword.control",
+          "keyword.cmake",
+          "punctuation.separator.pointer-access.cpp"
+        ],
+        "settings": {
+          "foreground": "#6596f1"
+        }
+      },
+    // Functions
+      {
+        "scope": [
+          "entity.name.function",
+          "support.type.python",
+          "meta.function-call.python",
+          "meta.function.python"
+        ],
+        "settings": {
+          "foreground": "#ffd75f"
+        }
+      },
+    // Built-in functions
+      {
+        "scope": [
+          "support.function",
+          "support.function.builtin.python"
+        ],
+        "settings": {
+          "foreground": "#ffa600"
+        }
+      },
+    // Preprocessor
+      {
+        "scope": [
+          "entity.name.function.preprocessor.cpp"
+        ],
+        "settings": {
+          "foreground": "#fac3ff"
+        }
+      },
+    // Pragma
+      {
+        "scope": [
+          "entity.other.attribute-name.pragma"
+        ],
+        "settings": {
+          "foreground": "#bbff62"
+        }
+      },
+    // Types
+      {
+        "scope": [
+          "storage.type",
+          "support.type"
+        ],
+        "settings": {
+          "foreground": "#d187ff"
+        }
+      },
+    // Other keywords
+      {
+        "scope": [
+          "storage.source.cmake",
+          "storage.modifier",
+          "variable.other.global.cuda-cpp",
+          "variable.other.device.cuda-cpp",
+          "keyword.other"
+        ],
+        "settings": {
+          "foreground": "#deaaff"
+        }
+      },
+    // Classes and structs
+      {
+        "scope": [
+          "entity.name.type",
+          "entity.name.class"
+        ],
+        "settings": {
+          "foreground": "#ffeebb",
+          "fontStyle": "" // To remove underline
+        }
+      },
+    // this and self
+      {
+        "scope": [
+          "variable.parameter.function.language.special.self.python",
+          "variable.language.special.self.python",
+          "variable.language.this.cpp"
+        ],
+        "settings": {
+          "foreground": "#ff9fcc",
+          "fontStyle": "italic"
+        }
+      },
+    // ??
+      {
+        "scope": [
+          "keyword.codetag.notation.python"
+        ],
+        "settings": {
+          "foreground": "#afbbffd8"
+        }
+      },
+    // Comments
+      {
+        "scope": [
+          "comment"
+        ],
+        "settings": {
+          "foreground": "#687dd1b7",
+          "fontStyle": "italic"
+        }
+      },
+    
+    // Markdown
+      {
+        "scope": [
+          "markup.heading"
+        ],
+        "settings": {
+          "foreground": "#5664ff"
+        }
+      },
+      {
+        "scope": [
+          "markup.bold",
+          "markup.italic"
+        ],
+        "settings": {
+          "foreground": "#5582ff"
+        }
+      },
+      {
+        "scope": [
+          "markup.inline.raw"
+        ],
+        "settings": {
+          "foreground": "#ca7bff"
+        }
+      },
+    
+    // YAML tags
+      {
+        "scope": [
+          "entity.name.tag.yaml"
+        ],
+        "settings": {
+          "foreground": "#d596ff"
+        }
+      },
+            
+    // RainbowCSV
+      {
+        "scope": "rainbow1",
+        "settings": {
+          "foreground": "#ffc548"
+        }
+      },
+      {
+        "scope": "keyword.rainbow2",
+        "settings": {
+            "foreground": "#ffff60"
+        }
+      },
+      {
+        "scope": "entity.name.function.rainbow3",
+        "settings": {
+          "foreground": "#9fff76"
+        }
+      },
+      {
+        "scope": "comment.rainbow4",
+        "settings": {
+          "foreground": "#88ffff",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "string.rainbow5",
+        "settings": {
+          "foreground": "#63b4ff"
+        }
+      },
+      {
+        "scope": "variable.parameter.rainbow6",
+        "settings": {
+          "foreground": "#818dff"
+        }
+      },
+      {
+        "scope": "constant.numeric.rainbow7",
+        "settings": {
+            "foreground": "#ff9dff"
+        }
+      },
+      {
+        "scope": "entity.name.type.rainbow8",
+        "settings": {
+            "foreground": "#ff5b9d"
+        }
+      },
+      {
+        "scope": "markup.bold.rainbow9",
+        "settings": {
+            "foreground": "#ff6c6c"
+        }
+      },
+      {
+        "scope": "invalid.rainbow10",
+        "settings": {
+            "foreground": "#ffd3bc"
+        }
+      }
+    ]
+  }
+}
